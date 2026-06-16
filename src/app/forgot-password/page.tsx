@@ -17,7 +17,7 @@ export default function ForgotPassword() {
 
     const supabase = createClient()
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/reset-password`,
+      redirectTo: `https://ferbshield.vercel.app/reset-password`,
     })
 
     if (error) {
