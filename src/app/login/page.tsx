@@ -50,9 +50,13 @@ export default function LoginPage() {
         {/* Logo / Brand */}
         {/* Logo / Brand */}
 <div className="mb-10 text-center">
-  <img src="/logo.png" alt="FerbShield" className="h-10 w-auto mx-auto -mb-6" />
-  <h1 className="text-white text-2xl font-semibold">Cybercrime Incident Reporting and Awareness platform</h1>
-  <h3 className="text-white text-2xl font-semibold">Welcome back</h3>
+  <div className="text-center">
+    <img src="/logo.png" alt="FerbShield" className="h-14 w-auto mx-auto mb-0" />
+    <h2 className="text-white text-1xl font-semibold -mt-2">
+      Cybercrime Incident Reporting and Awareness platform
+    </h2>
+  </div>
+  <h3 className="text-white text-2xl font-semibold p">Welcome back</h3>
   <p className="text-slate-400 text-sm mt-1">Sign in to your account to continue</p>
 </div>
 
