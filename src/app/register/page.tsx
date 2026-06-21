@@ -63,7 +63,8 @@ export default function RegisterPage() {
             </div>
             <span className="text-white font-bold text-xl tracking-tight">FerbShield</span>
           </div>
-          <h1 className="text-white text-2xl font-semibold">Create your account</h1>
+          <h1 className="text-white text-2xl font-semibold">Cybercrime Incident Reporting and Awareness platform</h1>
+          <h2 className="text-white text-2xl font-semibold">Create your account</h2>
           <p className="text-slate-400 text-sm mt-1">Join the platform to report and track cyber incidents</p>
         </div>
 
